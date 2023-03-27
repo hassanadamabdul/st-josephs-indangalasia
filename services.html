@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Services</title>
+    
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/sidebar.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+	
+	<link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+	
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jPushMenu.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    
+    <script type="text/javascript">
+		$(window).load(function() {
+			$(".loader").fadeOut("slow");
+		})
+	</script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+
+	<div class="loader"></div>
+	
+	<style>
+	
+	.loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('images/page-loader.gif') 50% 50% no-repeat rgb(30, 11, 141);
+	}
+	
+	</style>
+	
+	<header>
+	
+		<div class="top-heading">
+			<div class="container">
+				<div class="contact-info pull-left">
+					<a href="#"><span class="fa fa-phone"></span>+44 0799 6789 1234</a>
+				</div>
+				<ul class="social-icons pull-right">
+					<li><a href="#" class="icon fa fa-facebook"></a></li>
+					<li><a href="#" class="icon fa fa-twitter"></a></li>
+					<li><a href="#" class="icon fa fa-pinterest-p"></a></li>
+					<li><a href="#" class="icon fa fa fa-google-plus"></a></li>
+				</ul>
+			</div>
+		</div>
+
+        <nav class="navbar-default navbar-static-top" id="navbar-default" style="border-radius:0;">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle toggle-menu menu-left push-body" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                        <a class="navbar-brand" href="index.html"></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="bs-example-navbar-collapse-1">
+
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html"><span>Services</span></a></li>
+                        <li><a href="school.html">School</a></li>
+                        <li><a href="students.html">Students</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <style>
+        
+        	.navbar-default {
+        		background: #592ff1;
+        	}
+        
+        	.navbar-default .navbar-nav li a {
+        		color: rgb(233, 231, 231);
+        	}
+        	
+        	.navbar-default .navbar-toggle .icon-bar {
+				background: #000;
+			}
+			
+			.navbar-nav {
+				float: right;
+			}
+			
+			@media screen and (max-width: 768px) {
+			.navbar-nav {
+				float: left;
+			}
+			}
+			
+        
+        </style>
+
+        
+    </header>
+    
+    
+    <div class="container">
+    	<ul class="breadcrumb">
+  			<li><a href="index.html">Home</a> <span class="divider">/</span></li>
+  			<li class="active">Services</li>
+		</ul>
+	</div>
+
+	
+    <!--<div class="pricing-table">
+    	<div class="container">
+    		<div class="table">
+    			<div class="col-md-4 col-sm-4">
+    				<div class="block">
+    					<div class="cost">
+    						<h3>Counselling</h3>
+    						<h1><span class="symbol">& Guiding</span>12<span class="monthly">/term</span></h1>
+    						<p>Equipped counsellers are available</p>
+    					</div>
+    				
+    					<div class="info">
+    						<ul class="item-list">
+    							<li>Personal Issues</li>
+    							<li>Poor Studies strategy</li>
+    							<li>Lack of career direction</li>
+    							<li>life matters</li>
+    							<li><a href="#"><button type="button">Start</button></a></li>
+    						</ul>
+    					</div>
+    				</div>
+    			</div>
+
+    			<div class="col-md-4 col-sm-4">
+    				<div class="block">
+    					<div class="cost">
+    						<h3>Health Services</h3>
+    						<h1><span class="symbol">&  insurance</span>6<span class="monthly">/Ter</span></h1>
+    						<p>The school has nurses/doctors</p>
+    					</div>
+    				
+    					<div class="info">
+    						<ul class="item-list">
+    							<li>Sick Students</li>
+    							<li>Approved medical cover</li>
+    							<li>Insurance cover</li>
+    							<li>24/7 Support</li>
+    							<li><a href="#"><button type="button">Start Now</button></a></li>
+    						</ul>
+    					</div>
+    				</div>
+    			</div>
+    			
+    			<div class="col-md-4 col-sm-4">
+    				<div class="block">
+    					<div class="cost">
+    						<h3>Disability services</h3>
+    						<h1><span class="symbol"></span>24<span class="monthly">/7</span></h1>
+    						<p>no violation of student rights</p>
+    					</div>
+    				
+    					<div class="info">
+    						<ul class="item-list">
+    							<li>Report violation</li>
+    							<li>Accommodation to disable</li>
+    							<li>Report bullying</li>
+    							<li>Visit Students rights office</li>
+    							<li><a href="#"><button type="button">Visit Now</button></a></li>
+    						</ul>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>-->
+    
+	<div class="featured-list">
+		<div class="container">
+			<div class="col-md-4 col-sm-6">
+				<div class="section">
+					<div class="icon-container">
+						<i class="fa fa-area-chart"></i>
+					</div>
+					<h3>School Motto</h3>
+					<hr>
+					<p>MOTTO <br>
+						U <br>
+						MWANGAZA <br>
+						ANGAZA</p>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<div class="section">
+					<div class="icon-container">
+						<i class="fa fa-cogs"></i>
+					</div>
+					<h3>School Vision</h3>
+					<hr>
+					<p>VISSION
+						Leading institution in provision of quality secondary education for sustainable development of the learner</p>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<div class="section">
+					<div class="icon-container">
+						<i class="fa fa-pie-chart"></i>
+					</div>
+					<h3>School Mission</h3>
+					<hr>
+					<p>MISSION
+						To provide quality secondary education, coucel and mould students into productive and resourcesful members of society</p>
+				</div>
+			</div>
+			
+			<div class="col-md-4 col-sm-6">
+				<div class="section">
+					<div class="icon-container">
+						<i class="fa fa-calendar"></i>
+					</div>
+					<h3>School Core values</h3>
+					<hr>
+					<p>
+						modesty <br>
+						Faireness <br>
+						Humility <br><br>
+						</p>
+						<p>
+							Hardwork <br>
+                            Self-discipline <br>
+                            Patience <br>
+							Self Respect <br>
+Proffessionalism
+							
+						</p>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<div class="section">
+					<div class="icon-container">
+						<i class="fa fa-globe"></i>
+					</div>
+					<h3>subjects offerred</h3>
+					<hr>
+					<h3>sciences</h3>
+					<p>We offer all Sciences Subjects(Physics , Biology and Chemistry)</p>
+					<h3>humanities</h3>
+					<p>The school offers , CRE, Business-studies and Agriculture</p>
+					<h3>languages</h3>
+					<p>We offer all Languages subjects including Kiswahili and English</p>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<div class="section">
+					<div class="icon-container">
+						<i class="fa fa-heart"></i>
+					</div>
+					<h3>Blue Eagles</h3>
+					<hr>
+					<p>we soar so high</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="col-md-4 col-sm-6">
+				<h3>Contrast</h3>
+				<hr>
+				<p>we strive to offer a unique and innovative learning experience that sets us apart from other schools. Unlike traditional schools that may focus solely on rote memorization and standardized testing, we emphasize hands-on learning and critical thinking skills. .</p>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<h3>About Us</h3>
+				<hr>
+				<p>Academic Excellence: We are committed to providing a rigorous and challenging academic program that prepares students for success in college and beyond.
+
+					Respect and Inclusion: We believe in creating a safe, inclusive, and respectful environment where all students can thrive.
+					
+					Creativity and Innovation: We encourage creativity, innovation, and intellectual curiosity in all aspects of our school community..</p>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<h3>Contact Info</h3>
+				<hr>
+				<ul class="contact-list">
+					<li>
+						<p>
+							<i class="fa fa-home"></i>
+							St Josephs, Mumias Secondary School
+						</p>
+						<p>
+							<i class="fa fa-phone"></i>
+							0800 240 0905
+						</p>
+						<p>
+							<i class="fa fa-envelope-o"></i>
+							support@yourdomain.com
+						</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	
+	<div class="copyright-part">
+		<p>&copy 2022 <span>Contrast</span> All Rights Reserved</p>
+		<p>Designer: Abdul Hassan Adam</p>
+		<p>Contact: 0799518807, hassanadamabdul@gmail.com</p>
+	</div>
+    
+    
+    <script type="text/javascript">
+    
+      $(document).ready(function(){
+        $('.toggle-menu').jPushMenu({closeOnClickLink: false});
+        $('.dropdown-toggle').dropdown();
+      });
+      
+    </script>
+    
+    
+    <script type="text/javascript">
+    
+    $(function () {
+  		$.scrollUp({
+    		scrollName: 'scrollUp', // Element ID
+    		topDistance: '300', // Distance from top before showing element (px)
+    		topSpeed: 600, // Speed back to top (ms)
+    		animation: 'fade', // Fade, slide, none
+    		animationInSpeed: 200, // Animation in speed (ms)
+    		animationOutSpeed: 200, // Animation out speed (ms)
+    		activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
+    		scrollImg: true,
+  		});
+	});
+    
+    </script>
+    
+
+</body>
+
+</html>
